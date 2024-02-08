@@ -1,0 +1,23 @@
+h1{
+    color:red;
+    background-color: blueviolet; 
+    padding: 20px;
+    border: 4px dotted rebeccapurple; 
+}
+body {
+    background-color: cornflowerblue;  
+}
+p{
+    background-color: aqua;
+    padding: 20px 30px;
+}
+#inventario{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    border-bottom: 1px solid rebeccapurple;
+}
+.especial{
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+}
