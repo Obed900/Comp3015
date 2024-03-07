@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: ghostwhite;
+}
+
+#state-design {
+    display: grid; 
+}
+#state-design h1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+article img {
+    width: 100%;
+}
+/*Hacemos el sitio web responsivo */
+@media (max-width: 768px)  {
+    #state-design {
+        display: block;
+    }
+}
+
